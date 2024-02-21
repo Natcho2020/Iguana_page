@@ -1,0 +1,143 @@
+/* Configuración de la Raíz*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configuración General*/
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+}
+
+/* Preferecnias del Titulo*/
+.Titulo {
+    text-align: center;
+    font-size: xx-large;
+}
+
+/* Parametros Imagen Header*/
+header {
+    background-size: cover;
+}
+
+/* Parametros Sección 1 (Texto + Imagen) */
+.section1 {
+    padding: 3.5rem 0;
+    margin: 5rem 0;
+}
+
+/* Parametros Generales Caja Contenedora*/
+.caja {
+    width: 75%;
+    margin: 0 auto;
+    /* Debe ser Transparente de lo contrario la caja se notaria en las 
+    secciones con color distinto*/
+    background-color: transparent;
+}
+
+/* Aliniando el texto y la Imagen*/
+.text_section1,
+.img_section1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Parametros del Texto*/
+.text_section1 {
+    width: 40%;
+    font-size: smaller;
+    padding-right: 25px;
+}
+
+/* Parametros de la Caja*/
+.img_section1 {
+    width: 45%;
+    padding-left: 50px;
+    margin-left: 50px;
+
+}
+
+
+/* Parametros Generales Seccion 2 Caracteristicas*/
+.section2 {
+    background-color: #1e1a13;
+    padding: 3.5rem 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Parametros Titulo de Sección*/
+.caja h2 {
+    font-weight: medium;
+    font-size: 2.7rem;
+    margin-bottom: 5rem;
+}
+
+/* Parametros Aliniando los bloques*/
+.caja article {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 20px;
+    width: 33%;
+}
+
+/* Margenes para estética y cuadratura de texto*/
+article,
+p {
+    margin-top: 1rem;
+
+
+}
+
+/* Parametros de los iconos , se hizo en Svg por que hay mas opción de ajustes*/
+svg {
+    fill: #ffffff;
+    width: 3rem;
+}
+
+/* Parametros Caja 2 , re dimensión para mas similitud a la original*/
+.caja2 {
+    width: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+/* Parametros Galeria*/
+.Galeria {
+    padding: 4rem;
+    margin: 5rem 0;
+}
+
+/* Galeria en Bloque*/
+.caja2_img {
+    width: 30%;
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+/* Parametros de imagenes para que queden todas iguales*/
+.caja2_img img {
+    width: 100%;
+    height: 18rem;
+    margin: 0 2rem;
+}
+
+/* Parametros Footer*/
+footer {
+    padding: 25px;
+    background-color: #1e1a13;
+    text-align: center;
+    font-size: medium;
+
+}
+
+/* Parametros Enlace de Footer*/
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
